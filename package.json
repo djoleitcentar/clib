@@ -1,0 +1,20 @@
+{
+  "name": "ngx-commander-cli",
+  "version": "1.0.10",
+  "main": "index.js",
+  "bin": {
+    "clib": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "set-executable": "node set-executable.js",
+    "postinstall": "npm run set-executable"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
