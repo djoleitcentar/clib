@@ -34,7 +34,7 @@ function main() {
   // Create folder structure
   createFolderStructure(libName, dirName);
 
-  if (true) {
+  if (isCrudFlag) {
     generateCrud(libName, dirName);
   }
 }
