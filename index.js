@@ -7,8 +7,7 @@ const generateCrud = require("./utils/generateCrud");
 // Main function
 function main() {
   // Check if the library or directory name is provided as an argument
-  args = providedArgs(process.argv[2]);
-  const [libName, dirName, isCrudFlag] = args;
+  const [libName, dirName, isCrudFlag] = providedArgs(process.argv[2]);
 
   // Generate Nx library
   generateLibrary(libName, dirName);
